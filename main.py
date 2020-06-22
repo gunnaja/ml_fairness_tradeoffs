@@ -77,8 +77,8 @@ def run_experiments(config):
     
 
 
-#run_experiments(equal_opportunity_config)
-#run_experiments(statistical_parity_config)
-#run_experiments(theil_config)
-#run_experiments(disparate_impact_config)
+run_experiments(equal_opportunity_config)
+run_experiments(statistical_parity_config)
+run_experiments(theil_config)
+run_experiments(disparate_impact_config)
 run_experiments(average_odds_config)
